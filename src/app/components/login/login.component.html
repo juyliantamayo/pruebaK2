@@ -1,0 +1,11 @@
+<div class="login-page">
+    <div class="form">
+      
+      <form class="login-form">
+        <input type="email" placeholder="email"[formControl]="user"/>
+        <input type="password" placeholder="password" [formControl]="password"/>
+        <button [disabled]="user.invalid || password.invalid" (click)="login()">login</button>
+       
+      </form>
+    </div>
+  </div>

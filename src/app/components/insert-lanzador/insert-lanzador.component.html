@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="tiros">
+        <h3>
+            First shot
+        </h3>
+        <mat-checkbox class="example-margin" [(ngModel)]="tiros[0]">Shot 1</mat-checkbox>
+        <mat-checkbox class="example-margin" [(ngModel)]="tiros[1]">Shot 2</mat-checkbox>
+        <mat-checkbox class="example-margin" [(ngModel)]="tiros[2]">Shot 3</mat-checkbox>
+        <mat-checkbox class="example-margin" [(ngModel)]="tiros[3]">Shot 4</mat-checkbox>
+        <mat-checkbox class="example-margin" [(ngModel)]="tiros[4]">Shot 5</mat-checkbox>
+    </div>
+   
+    <button mat-raised-button color="primary" [disabled]="
+  
+  " class="responsive texto" style="font-size: 1rem; height: 60%; text-align: center; " (click)="pushLauncher()">
+        push launcher
+    </button>
+</div>

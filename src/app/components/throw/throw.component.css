@@ -1,0 +1,49 @@
+* {
+    font-size: 62.5%;
+}
+
+.titulo {
+    width: 90%;
+    height: 10%;
+    color: rgb(62, 127, 159);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    color: rgb(62, 127, 159);
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline{
+    height: 3rem;
+}
+
+.divider {
+    color: rgb(62, 127, 159);
+    height: 40%;
+    size: 10rem;
+}
+
+.responsive {
+    width: 80%;
+    height: 100px;
+}
+
+.center {
+    margin-top: 7%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.texto {
+    
+    font-size: 1rem;
+    text-align: left;
+}
+
+body {
+    background-color: rgb(62, 127, 159);
+}
